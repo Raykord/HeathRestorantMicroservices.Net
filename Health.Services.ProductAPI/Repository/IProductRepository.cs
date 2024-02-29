@@ -2,7 +2,7 @@
 
 namespace Health.Services.ProductAPI.Repository
 {
-	public interface IProductReposiroty
+	public interface IProductRepository
 	{
 		Task<IEnumerable<ProductDto>> GetProducts();
 		Task<ProductDto> GetProductById(int productId);
